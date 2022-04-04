@@ -1,0 +1,88 @@
+@media only screen and (max-width: 992px) {
+    #menu{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    /* logo */
+    #logo a{
+        font-size: 1em;
+    }
+    /* home */
+    .home-btn-l{
+        font-size: .9em;
+        margin-bottom: 1em;
+    }
+    /* full-service */
+    #full-service{
+        margin-top: 3em;
+        margin: 1em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #full-service .row .col-md-4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #full-service .s-bg{
+        display: none;
+    }
+    #full-service .container .row:nth-child(1) .col-sm-12 h2{
+        text-align: center;
+    }
+    /* testomonials */
+    #testomonials{
+        margin: 2em 0;
+        padding: 0 1em;
+    }
+    /* service */
+    #service {
+        margin: 1em 0;
+    }
+    #service .row:nth-child(3) .container{
+        padding: 1em 1em;
+    }
+    article .container .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    article .container .first .col-md-6 h2{
+        text-align: center;
+    }
+    article .container .first .col-md-6:nth-child(2){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+    }
+    /*  */
+    article .row .col-lg-4{
+        display: flex;
+        align-items: center;
+    }
+    .card{
+        margin-bottom: 2em;
+    }
+    /* contact */
+    #contact{
+        padding: 2em 0;
+    }
+    /* footer */
+    footer{
+        margin-top: 1em;
+    }
+    footer .row .col-lg-3{
+        display: flex;
+        align-items: center;
+        margin: 1em 0;
+    }
+    footer .row .col-lg-3 p{
+        text-align: center;
+    }
+}

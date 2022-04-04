@@ -1,0 +1,42 @@
+#testomonials{
+    min-height: 80vh;
+}
+#testomonials .container{
+    min-height: 80vh;
+}
+.arrow svg{
+    color: rgb(6, 14, 124);
+    font-size: 1.2em;
+}
+#testomonials .container .row:nth-child(1) .col-sm-12 p{
+    font-size: .8em;
+    font-weight: 700;
+    color: rgb(0, 0, 173);
+}
+#testomonials .container .row:nth-child(1) .col-sm-12 h3{
+    font-weight: 700;
+}
+#testomonials .container .row:nth-child(2) .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* #testomonials .container .row:nth-child(2) .col-md-6:nth-child(1) img{
+    height: 100%;
+} */
+.content-tes .fa-quote-left{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: rgb(218, 133, 5);
+}
+.content-tes h5{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.content-tes p{
+    font-size: .9em;
+    color: rgb(119, 119, 119);
+}
+.content-tes h6{
+    margin-bottom: 0;
+}

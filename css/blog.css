@@ -1,0 +1,30 @@
+article{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+article .card{
+    border-radius: 10px;
+}
+article .first{
+    margin-bottom: 1.5em;
+}
+article .row:nth-child(1) .col-md-6:nth-child(1) h2{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+article .row:nth-child(1) .col-md-6:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+article .row:nth-child(1) .col-md-6:nth-child(2) a{
+    background-color: rgb(41, 1, 134);
+    color: #fff;
+}
+article .row:nth-child(2) .col-lg-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

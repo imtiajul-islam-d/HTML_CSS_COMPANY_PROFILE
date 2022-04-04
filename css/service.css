@@ -1,0 +1,102 @@
+#service{
+    min-height: 100vh;
+
+}
+/* row 1 st */
+#service .container .row:nth-child(1){
+    min-height: 30vh;
+}
+#service .container .row:nth-child(1) .col-sm-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#service .container .row:nth-child(1) .col-sm-12 h2{
+    font-weight: 700;
+    text-align: center;
+}
+#service .container .row:nth-child(1) .col-sm-12 p{
+    max-width: 30em;
+    text-align: justify;
+    font-size: .9em;
+    color: rgb(77, 77, 77);
+}
+#service .container .row:nth-child(1) .col-sm-12 a{
+    background-color: rgb(28, 18, 163);
+    padding: .7em 1.8em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: .8em;
+}
+#service .container .row:nth-child(1) .col-sm-12 a:hover{
+    background-color: rgb(61, 18, 163);
+}
+/* row 1 ed */
+/* row 2 st */
+#service .container .row:nth-child(2){
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#service .container .row:nth-child(2) .col-md-4{
+    height: 250px;
+    width: 250px;
+    padding: 1em 0;
+}
+#service .container .row:nth-child(2) .col-md-4:hover{
+    border: 1px solid rgb(235, 235, 235);
+}
+#service .container .row:nth-child(2) .col-md-4 .container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    align-items: flex-start;
+}
+#service .container .row:nth-child(2) .col-md-4 img{
+    position: absolute;
+    top: 0%;
+    right: 8%;
+    height: 50%;
+    width: auto;
+}
+#service .container .row:nth-child(2) .col-md-4 svg{
+    padding: .5em;
+    background-color: rgb(234, 248, 247);
+    color: rgb(28, 18, 163);
+    border-radius: 10px;
+}
+#service .container .row:nth-child(2) .col-md-4 h6{
+    font-weight: 700;
+}
+#service .container .row:nth-child(2) .col-md-4 p{
+    font-size: .9em;
+    text-align: justify;
+}
+/* row 2 ed */
+#service .container .row:nth-child(3){
+    min-height: 23vh;
+    background-color: rgb(234, 248, 247);
+    margin-bottom: 2vh;
+    border-radius: 10px;
+}
+#service .container .row:nth-child(3) .col-lg-12{
+    min-height: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#service .container .row:nth-child(3) .col-lg-12 h2{
+    max-width: 50%;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+#service .container .row:nth-child(3) .col-lg-12  a{
+    background-color: rgb(28, 18, 163);
+    color: #fff;
+    font-size: .9em;
+}

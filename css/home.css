@@ -1,0 +1,148 @@
+#home{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+  
+}
+/* bg-img */
+#background img{
+    position: absolute;
+    z-index: -1;
+}
+.bc-home-r{
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: auto;
+}
+.bc-home-l-b{
+    bottom: 0;
+    left: 0;
+}
+/* bg-img end */
+/* nav start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+/*  */
+.fa-bars{
+    display: none;
+}
+/*  */
+nav div a{
+    text-decoration: none;
+    color: #000;
+}
+/* logo */
+#logo a{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333333;
+}
+/* menu */
+nav ul{
+    display: flex;
+    margin-bottom: 0;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 2em;
+}
+nav ul li svg{
+    margin-left: .1em;
+}
+nav ul li a{
+    font-size: .9em;
+}
+/* button */
+#button-nav a{
+    font-size: .8em;
+    
+}
+#button-nav a:nth-child(1):hover{
+    background-color: rgb(41, 7, 134);
+    color: #fff;
+}
+#button-nav a:nth-child(2){
+    background-color: rgb(41, 7, 134);
+    color: #fff;
+}
+/* nav end */
+/* main start */
+main , main .container{
+    min-height: calc(100vh - 4em);
+}
+main .container .row:nth-child(1){
+    min-height: calc(100vh - (4em + 4.5em));
+}
+main .container .row:nth-child(1) .col-md-6 , main .container .row:nth-child(1) .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-btn-l a:nth-child(1){
+    background-color: rgb(41, 7, 134);
+    color: #fff;
+    border-radius: 20px;
+    font-size: .9em;
+    margin-right: 1em;
+}
+.home-btn-l a:nth-child(2){
+    font-size: .9em;
+    background-color: rgb(63, 231, 175);
+    padding: .6em .8em;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 1em;
+}
+.home-btn-l a:nth-child(3){
+    text-decoration: none;
+    color: rgb(31, 13, 112);
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(1) h1{
+    max-width: 14em;
+    font-weight: 700;
+    margin-top: 1.2em;
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(1) p{
+    max-width: 23em;
+    font-size: .9em;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(2) form{
+    max-width: 20em;
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(2) form .get-started{
+    color: #4c19ff;
+    margin-bottom: .5em;
+    font-weight: 600;
+}
+main .container .row:nth-child(1) .col-md-6:nth-child(2) form button[type=submit]{
+    width: 100%;
+    background-color: rgb(236, 93, 10);
+    border: none;
+}
+/* last row */
+main .container .row:last-child{
+    display: flex;
+    align-items: center;
+    height: 4.5em;
+}
+main .container .row:last-child .col-sm-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .container .row:last-child .col-sm-12 a{
+    color: #000;
+    text-decoration: none;
+}
+/* main end */

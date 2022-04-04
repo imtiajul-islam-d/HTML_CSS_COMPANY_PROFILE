@@ -1,0 +1,14 @@
+#clients{
+    display: flex;
+    height: 5em;
+    align-items: center;
+}
+#clients .container .row .col-sm-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clients .container .row .col-sm-12 a img{
+    width: 60%;
+    height: auto;
+}

@@ -1,0 +1,48 @@
+#contact{
+    min-height: 60vh;
+    background-color: #2f2cc4;
+}
+#contact .container{
+    min-height: 60vh;
+}
+#contact .container .row{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact .container .row .col-lg-6:nth-child(1) h2{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+#contact .container .row .col-lg-6:nth-child(1) p{
+    font-size: .9em;
+    color: #fff;
+}
+#contact .container .row .col-lg-6:nth-child(1) p:nth-child(1){
+    font-size: .75em;
+    color:#fff
+}
+/*  */
+#contact .container .row .col-lg-6:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+#contact .container .row .col-lg-6:nth-child(2) form{
+    width: 20em;
+}
+#contact .container .row .col-lg-6:nth-child(2) input{
+    background-color: rgba(255, 255, 255, 0.356);
+    border: none;
+    color: rgba(255, 255, 255, 0.466);
+}
+#contact .container .row .col-lg-6:nth-child(2) button{
+    width: 100%;
+    background-color: rgb(245, 90, 0);
+    border: none;
+    font-size: .9em;
+}
+.margin {
+    margin: 1em 0;
+}

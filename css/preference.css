@@ -1,0 +1,32 @@
+#preference{
+    min-height: 40vh;
+}
+.c-p{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-pre{
+    min-height: 10em;
+    width: 100%;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+.content-pre:hover{
+    box-shadow: 1px 1px 20px rgb(226, 226, 226);
+}
+.content-pre .container{
+    min-height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-pre .container .col-md-3{
+    display: flex;
+    align-items: center;
+}
+.content-pre .container .col-md-3 h3{
+    font-weight: 700;
+    margin-bottom: 0;
+}

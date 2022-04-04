@@ -1,0 +1,32 @@
+#review{
+    min-height: 80vh;
+}
+#review .container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#review .container .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#review .container .row .col-md-6 p:nth-child(1){
+    font-size: .8em;
+    color: rgb(3, 0, 180);
+    font-weight: 700;
+}
+#review .container .row .col-md-6 h2{
+    font-weight: 700;
+}
+#review .container .row .col-md-6 p:nth-child(2){
+    color: rgb(88, 88, 88);
+}
+#review .container .row .col-md-6 a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+#review .container .row .col-md-6 a svg{
+    color: rgb(226, 156, 3);
+}
